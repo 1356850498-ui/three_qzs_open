@@ -1,0 +1,41 @@
+Resource table view: zero-use arithmetic column omitted; all displayed values preserved.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Tue Oct 27 17:50:42 2026
+| Host         : LAPTOP-2K05IN87 running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file D:/work/fpga_contest/jilian/three_qzs_open/handoff/reports/main/utilization.rpt
+| Design       : cascade_qzs_board_top
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++---------------------------+------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| Instance | Module | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 |
++---------------------------+------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| cascade_qzs_board_top | (top) | 1011 | 1010 | 0 | 1 | 325 | 0 | 0 |
+| (cascade_qzs_board_top) | (top) | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| u_logic | cascade_logic | 970 | 970 | 0 | 0 | 292 | 0 | 0 |
+| u_core | cascade_core | 879 | 879 | 0 | 0 | 213 | 0 | 0 |
+| units[2].u_unit | cascade_unit_1 | 127 | 127 | 0 | 0 | 52 | 0 | 0 |
+| u_window | qzs_window | 61 | 61 | 0 | 0 | 6 | 0 | 0 |
+| u_ref | sine_ref_pair | 57 | 57 | 0 | 0 | 36 | 0 | 0 |
+| u_timebase | cascade_timebase | 428 | 428 | 0 | 0 | 14 | 0 | 0 |
+| units[0].u_unit | cascade_unit | 133 | 133 | 0 | 0 | 53 | 0 | 0 |
+| u_window | qzs_window_8 | 68 | 68 | 0 | 0 | 6 | 0 | 0 |
+| units[1].u_unit | cascade_unit_0 | 132 | 132 | 0 | 0 | 52 | 0 | 0 |
+| u_window | qzs_window_5 | 71 | 71 | 0 | 0 | 6 | 0 | 0 |
+| u_controls | board_controls | 90 | 90 | 0 | 0 | 77 | 0 | 0 |
++---------------------------+------------------+------------+------------+---------+------+-----+--------+--------+------------+
+
+

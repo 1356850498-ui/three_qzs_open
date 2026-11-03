@@ -1,0 +1,20 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Tue Oct 27 17:59:05 2026
+| Host         : LAPTOP-2K05IN87 running 64-bit major release  (build 9200)
+| Command      : report_exceptions -file D:/work/fpga_contest/jilian/three_qzs_open/handoff/reports/main/exceptions.rpt
+| Design       : cascade_qzs_board_top
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Exceptions Report
+
+Position  From                   Through         To                                                         Setup           Hold            Status           
+--------  ---------------------  --------------  ---------------------------------------------------------  --------------  --------------  -----------------
+3         [get_ports btn_start]  *               [get_pins u_logic/u_controls/u_start_sync/sync_ff1_reg/D]  false           false           
+4         [get_ports btn_fault]  *               [get_pins u_logic/u_controls/u_fault_sync/sync_ff1_reg/D]  false           false           
+5         [get_ports btn_clear]  *               [get_pins u_logic/u_controls/u_clear_sync/sync_ff1_reg/D]  false           false           
+

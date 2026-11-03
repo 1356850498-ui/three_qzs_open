@@ -1,0 +1,38 @@
+Resource table view: zero-use arithmetic column omitted; all displayed values preserved.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Tue Oct 27 17:50:37 2026
+| Host         : LAPTOP-2K05IN87 running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file D:/work/fpga_contest/jilian/three_qzs_open/handoff/reports/d0/utilization.rpt
+| Design       : cascade_qzs_d0_board_top
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++------------------------------+------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| Instance | Module | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 |
++------------------------------+------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| cascade_qzs_d0_board_top | (top) | 620 | 619 | 0 | 1 | 301 | 0 | 0 |
+| (cascade_qzs_d0_board_top) | (top) | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| u_logic | cascade_logic | 579 | 579 | 0 | 0 | 268 | 0 | 0 |
+| u_controls | board_controls | 80 | 80 | 0 | 0 | 77 | 0 | 0 |
+| u_core | cascade_core | 498 | 498 | 0 | 0 | 189 | 0 | 0 |
+| units[2].u_unit | cascade_unit_1 | 94 | 94 | 0 | 0 | 44 | 0 | 0 |
+| u_ref | sine_ref_pair | 55 | 55 | 0 | 0 | 36 | 0 | 0 |
+| u_timebase | cascade_timebase | 157 | 157 | 0 | 0 | 14 | 0 | 0 |
+| units[0].u_unit | cascade_unit | 90 | 90 | 0 | 0 | 45 | 0 | 0 |
+| units[1].u_unit | cascade_unit_0 | 95 | 95 | 0 | 0 | 44 | 0 | 0 |
++------------------------------+------------------+------------+------------+---------+------+-----+--------+--------+------------+
+
+
