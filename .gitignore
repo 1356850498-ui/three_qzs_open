@@ -1,0 +1,36 @@
+# Vivado-generated projects
+/board/project_main/
+/board/project_d0/
+**/.Xil/
+**/*.cache/
+**/*.gen/
+**/*.hw/
+**/*.ip_user_files/
+**/*.runs/
+**/*.sim/
+**/*.srcs/
+*.xpr
+*.dcp
+*.wdb
+*.pb
+*.jou
+*.log
+*.str
+*.lck
+*.backup.*
+
+# Reproduction output and local tool results
+/build/reproduction_logs/
+/build/cascade_*.wcfg
+/skill/results/
+**/key_trace.csv
+
+# Python and local editor/OS state
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
