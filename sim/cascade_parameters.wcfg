@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<wave_config>
+  <wave_state>
+   </wave_state>
+  <db_ref_list>
+    <db_ref path="cascade_parameters.wdb" id="1">
+      <top_modules>
+        <top_module name="cascade_parameters_tb" />
+      </top_modules>
+    </db_ref>
+  </db_ref_list>
+  <zoom_setting>
+   </zoom_setting>
+  <column_width_setting>
+   </column_width_setting>
+  <WVObjectSize size="4" />
+  <wvobject fp_name="/cascade_parameters_tb/clk" type="logic">
+    <obj_property name="ElementShortName">clk</obj_property>
+    <obj_property name="ObjectShortName">clk</obj_property>
+  </wvobject>
+  <wvobject fp_name="/cascade_parameters_tb/gates" type="array">
+    <obj_property name="ElementShortName">gates[0:5][11:0]</obj_property>
+    <obj_property name="ObjectShortName">gates[0:5][11:0]</obj_property>
+  </wvobject>
+  <wvobject fp_name="/cascade_parameters_tb/run_active" type="array">
+    <obj_property name="ElementShortName">run_active[5:0]</obj_property>
+    <obj_property name="ObjectShortName">run_active[5:0]</obj_property>
+  </wvobject>
+  <wvobject fp_name="/cascade_parameters_tb/latched" type="array">
+    <obj_property name="ElementShortName">latched[5:0]</obj_property>
+    <obj_property name="ObjectShortName">latched[5:0]</obj_property>
+  </wvobject>
+</wave_config>
