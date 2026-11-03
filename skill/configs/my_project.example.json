@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "name": "controller",
+      "path": "sim/results/controller/result.txt"
+    }
+  ],
+  "implementations": [
+    {
+      "name": "default",
+      "top": "controller_top",
+      "timing": "build/reports/timing.rpt",
+      "utilization": "build/reports/utilization.rpt",
+      "clock": "sys_clk",
+      "period_ns": 20.0,
+      "max_resources": {}
+    }
+  ]
+}
