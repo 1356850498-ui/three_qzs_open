@@ -1,0 +1,2 @@
+# Preserve file bytes so the packaged SHA256 manifest remains valid after checkout.
+* -text
