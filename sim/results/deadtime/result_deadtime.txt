@@ -1,3 +1,0 @@
-DEAD100 checks=17011 errors=0 openings=69 reversals=119 min_gap=100
-DEAD1 checks=17011 errors=0; DEAD2 checks=17011 errors=0; directed_categories=10
-RESULT=PASS
