@@ -1,0 +1,92 @@
+{
+  "tests": [
+    {
+      "name": "cascade_main",
+      "path": "sim/results/cascade_main/result.txt"
+    },
+    {
+      "name": "cascade_d0",
+      "path": "sim/results/cascade_d0/result.txt"
+    },
+    {
+      "name": "cascade_buttons",
+      "path": "sim/results/cascade_buttons/result.txt"
+    },
+    {
+      "name": "cascade_parameters",
+      "path": "sim/results/cascade_parameters/result.txt"
+    },
+    {
+      "name": "qzs",
+      "path": "sim/results/qzs/result_qzs.txt"
+    },
+    {
+      "name": "normal_spwm",
+      "path": "sim/results/normal_spwm/result_normal_spwm.txt"
+    },
+    {
+      "name": "interlock",
+      "path": "sim/results/interlock/result_interlock.txt"
+    },
+    {
+      "name": "arbiter",
+      "path": "sim/results/arbiter/result_arbiter.txt"
+    },
+    {
+      "name": "parameter",
+      "path": "sim/results/parameter/result_parameter.txt"
+    },
+    {
+      "name": "qzs_board",
+      "path": "sim/results/qzs_board/result_qzs_board.txt"
+    },
+    {
+      "name": "board",
+      "path": "sim/results/board/result_board.txt"
+    },
+    {
+      "name": "core",
+      "path": "sim/results/core/result_core.txt"
+    },
+    {
+      "name": "deadtime",
+      "path": "sim/results/deadtime/result_deadtime.txt"
+    },
+    {
+      "name": "compare",
+      "path": "sim/results/compare/result_compare.txt"
+    },
+    {
+      "name": "reset",
+      "path": "sim/results/reset/result_reset.txt"
+    },
+    {
+      "name": "equivalence",
+      "path": "sim/results/equivalence/result_equivalence.txt"
+    },
+    {
+      "name": "trace",
+      "path": "sim/results/trace/result_trace.txt"
+    }
+  ],
+  "implementations": [
+    {
+      "name": "main",
+      "top": "cascade_qzs_board_top",
+      "timing": "build/reports/main/implementation/timing.rpt",
+      "utilization": "build/reports/main/implementation/utilization.rpt",
+      "clock": "clk_fpga_0",
+      "period_ns": 10.0,
+      "max_resources": {}
+    },
+    {
+      "name": "d0",
+      "top": "cascade_qzs_d0_board_top",
+      "timing": "build/reports/d0/implementation/timing.rpt",
+      "utilization": "build/reports/d0/implementation/utilization.rpt",
+      "clock": "clk_fpga_0",
+      "period_ns": 10.0,
+      "max_resources": {}
+    }
+  ]
+}

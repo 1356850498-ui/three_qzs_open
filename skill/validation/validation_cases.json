@@ -1,0 +1,79 @@
+{
+  "all_verified": true,
+  "cases": [
+    {
+      "case": "saved_project_evidence",
+      "expected": "pass",
+      "observed": "pass",
+      "verified": true
+    },
+    {
+      "case": "missing_result",
+      "expected": "fail",
+      "observed": "fail",
+      "verified": true
+    },
+    {
+      "case": "incomplete_result",
+      "expected": "fail",
+      "observed": "fail",
+      "verified": true
+    },
+    {
+      "case": "pass_with_nonzero_errors",
+      "expected": "fail",
+      "observed": "fail",
+      "verified": true
+    },
+    {
+      "case": "pass_without_error_count",
+      "expected": "fail",
+      "observed": "fail",
+      "verified": true
+    },
+    {
+      "case": "conflicting_result",
+      "expected": "fail",
+      "observed": "fail",
+      "verified": true
+    },
+    {
+      "case": "incorrect_clock_requirement",
+      "expected": "fail",
+      "observed": "fail",
+      "verified": true
+    },
+    {
+      "case": "incorrect_top",
+      "expected": "fail",
+      "observed": "fail",
+      "verified": true
+    },
+    {
+      "case": "resource_budget_exceeded",
+      "expected": "fail",
+      "observed": "fail",
+      "verified": true
+    },
+    {
+      "case": "real_historical_negative_timing",
+      "expected": "fail",
+      "observed": "fail",
+      "verified": true
+    },
+    {
+      "case": "evidence_outside_project_root",
+      "expected": "fail",
+      "observed": "fail",
+      "verified": true
+    },
+    {
+      "case": "portable_synthetic_50mhz_controller",
+      "expected": "pass",
+      "observed": "pass",
+      "verified": true
+    }
+  ],
+  "rtl_simulation_rerun": false,
+  "hardware_test_run": false
+}
